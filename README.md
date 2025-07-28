@@ -4,12 +4,17 @@ This project is a simple C application designed for retail sales analysis. It al
 
 ## Project Structure
 
-The project consists of a single source file:
+The project consists of the following source files:
 
 ```
-sales-analysis
-├── main.c          # Contains all the code for the application
-└── README.md       # Project documentation
+modular-sales-analysis
+├── src
+│   ├── main.c          # Contains the main function and menu logic
+│   ├── ui.c            # Contains user interface functions
+│   ├── ui.h            # Header file for ui.c
+│   ├── sales.c         # Contains sales-related functions
+│   ├── sales.h         # Header file for sales.c
+└── README.md           # Project documentation
 ```
 
 ## Features

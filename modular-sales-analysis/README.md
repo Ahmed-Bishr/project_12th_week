@@ -1,23 +1,15 @@
-# Modular Sales Analysis
+# Sales Analysis
 
-This project is a modular C application designed for retail sales analysis. It allows users to enter sales data, calculate total sales, and perform various analyses on the sales data.
+This project is a simple C application designed for retail sales analysis. It allows users to enter sales data, calculate total sales, and perform various analyses on the sales data.
 
 ## Project Structure
 
-The project is organized into the following directories and files:
+The project consists of a single source file:
 
 ```
-modular-sales-analysis
-├── src
-│   ├── main.c          # Entry point of the application
-│   ├── ui.c            # User interface functions implementation
-│   ├── ui.h            # User interface functions declarations
-│   ├── sales.c         # Sales data handling functions implementation
-│   ├── sales.h         # Sales data handling functions declarations
-│   ├── utils.c         # Utility functions implementation
-│   └── utils.h         # Utility functions declarations
-├── Makefile             # Build instructions
-└── README.md            # Project documentation
+sales-analysis
+├── main.c          # Contains all the code for the application
+└── README.md       # Project documentation
 ```
 
 ## Features
@@ -31,13 +23,13 @@ modular-sales-analysis
 
 ## Building the Project
 
-To build the project, navigate to the project directory and run the following command:
+To build the project, navigate to the directory containing `main.c` and run the following command:
 
 ```
-make
+gcc main.c -o sales_analysis
 ```
 
-This will compile the source files and create an executable named `sales_analysis`.
+This will compile the source file and create an executable named `sales_analysis`.
 
 ## Running the Application
 
